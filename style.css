@@ -1,0 +1,85 @@
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+body{
+  background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+  font-family: 'Spartan', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+      background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+      background-position: left top, right bottom;
+      background-repeat: no-repeat;
+  }}
+
+  .mt-principal{
+  margin-top: 10%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.font-primer{
+  color: #185b74;
+  font-weight: 700;
+}
+
+.font-segundo{
+  color: hsl(303, 10%, 53%);
+  font-size: 14px;
+}
+
+.card-start-1{
+  background-color: #99abb6;
+  border: none;
+}
+
+.fa-star{
+  color: rgb(169, 206, 231);
+}
+
+.Parrafo-1{
+  font-size: 13px;
+  color:#185b74;
+  font-weight: 700;
+}
+
+.bg-BlueO{
+  background-color: #0f3852;
+}
+
+.rounded-xlg{
+  border-radius: .5rem;
+}
+
+.txt-BlueC{
+  color: hsl(194, 76%, 65%);
+}
+
+.tamaño{
+  font-size: 13px;
+}
+
+/*.ml-star-uno{
+  margin-left: 40px;
+}
+
+.ml-star-dos{
+  margin-left: 80px;
+}
+*/
+.mt-card-2{
+  margin-top: 20px;
+}
+
+.mt-card-3{
+  margin-top: 40px;
+}
+
